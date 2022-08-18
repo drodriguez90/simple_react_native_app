@@ -65,7 +65,9 @@ const App: () => Node = () => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <Header />
+        <Section title="CBI">
+            Welcome to ER APP example
+        </Section>
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
@@ -83,7 +85,7 @@ const App: () => Node = () => {
           <Section title="Learn More">
             Read the docs to discover what to do next:
           </Section>
-          <LearnMoreLinks />
+          
         </View>
       </ScrollView>
     </SafeAreaView>
